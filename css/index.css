@@ -51,7 +51,13 @@
 #design .row #left #pro-img .preview-box #preview {
   margin-left: 50px;
   margin-top: 200px;
+  width: 200px;
+  height: 104px;
   cursor: pointer;
+}
+#design .row #left #pro-img .preview-box #preview img {
+  width: auto;
+  height: auto;
 }
 @media (max-width: 420px) {
   #design .row #left #pro-img .preview-box #preview {
