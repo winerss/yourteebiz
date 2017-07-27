@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>在线定制</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/croppic.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <div id="design">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="left">
+                    <div id="pro-img">
+                        <img id="cloth" class="img-responsive center-block " alt="">
+                        <div class="preview-box">
+                            <div id="preview">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pro-list">
+                        <ul>
+                            <li><img class='img-responsive' alt=''></li>
+                            <li><img class='img-responsive' alt=''></li>
+                            <li><img class='img-responsive' alt=''></li>
+                            <li><img class='img-responsive' alt=''></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="center">
+                    <div class="pro-style-box">
+                        <div class="pro-style">
+                            <p class="p-title">款式</p>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button class="activeBtn">短袖T恤</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>长袖T恤</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>POLO衫</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>圆领卫衣</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>套头卫衣</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>拉链卫衣</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>童装</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>帆布袋</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>广告伞</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>鸭舌帽</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro-category">
+                            <p class="p-title">类别</p>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button class="activeBtn">标准款</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>高级欧版</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>高级亚版</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>速干版</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="switch-sex">
+                            <p class="p-title">男/女</p>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button class="activeBtn">男款</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <button>女款</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro-color">
+                            <p class="p-title">颜色</p>
+                            <div class="color color1" style="display:block">
+                                <span style="background:#fff" title="白色"></span>
+                                <span style="background:#fcd865" title="雏菊色"></span>
+                                <span style="background:#f7c9d9" title="浅粉色"></span>
+                                <span style="background:#f59d1f" title="金黄色"></span>
+                                <span style="background:#ef68a5" title="杜鹃花色"></span>
+                                <span style="background:#eb6224" title="橙橘色"></span>
+                                <span style="background:#5d605f" title="碳色"></span>
+                                <span style="background:#4e79ae" title="麻灰宝蓝色"></span>
+                                <span style="background:#4bb680" title="麻灰爱尔兰绿色"></span>
+                                <span style="background:#44316e" title="紫色"></span>
+                                <span style="background:#333333" title="黑色"></span>
+                                <span style="background:#240002" title="巧克力色"></span>
+                                <span style="background:#1e1975" title="钴蓝色"></span>
+                                <span style="background:#1a9d95" title="翡翠绿色"></span>
+                            </div>
+                            <div class="color color2" style="display:none">
+                                <span style="background:#e52679" title="海里康花色"></span>
+                                <span style="background:#e05800" title="荧光橙色"></span>
+                                <span style="background:#dd0000" title="大红色"></span>
+                                <span style="background:#d57791" title="荧光粉色"></span>
+                                <span style="background:#cbe1f6" title="浅蓝色"></span>
+                                <span style="background:#bfc1c5" title="运动灰"></span>
+
+                            </div>
+                            <div class="color color3" style="display:none">
+                                <span style="background:#b9d300" title="荧光绿色"></span>
+                                <span style="background:#a7d173" title="浅绿色"></span>
+                                <span style="background:#929599" title="麻灰色"></span>
+                                <span style="background:#7d8768" title="军绿色"></span>
+                                <span style="background:#7a5743" title="栗黄色"></span>
+                                <span style="background:#6e93b8" title="卡罗莱纳蓝色"></span>
+                                <span style="background:#6b2234" title="栗色"></span>
+                                <span style="background:#624a7e" title="麻灰紫"></span>
+
+                            </div>
+                            <div class="color color4" style="display:none">
+
+                                <span style="background:#1a68ae" title="宝蓝色"></span>
+                                <span style="background:#101b33" title="藏青色"></span>
+                                <span style="background:#05a278" title="深林绿色"></span>
+                                <span style="background:#01a252" title="爱尔兰绿色"></span>
+                                <span style="background:#008fc3" title="宝石蓝色"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="right">
+                    <div class="row top">
+                        <p class="tips">
+                            1、拖动滑杆了解批量单价及总费用。<br/> 2、在保存定制后进行下单和样衣定制。
+                            <br/> 3、目前起订量20件。
+                            <br/> 4、我们会在收到订单后的5-10个工作日内完成印制及配送。
+                        </p>
+                        <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                            <button style="position:relative"> 
+                                <p style="line-height:45px;">上传图片</p>
+                                <input style="background:red;position:absolute;bottom:0" type="file" id="cropContainerHeaderButton" data-toggle="modal" data-target="#myModal"/>
+                            </button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <button data-toggle="modal" data-target="#myModal2" id="resouce">素材库</button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <button class="delete"><span class="glyphicon glyphicon-remove"></span>删除</button>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <p class="p-title">缩放设置</p>
+                        <div class="btn-group zoom" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" title="缩小按钮">-</button>
+                            <button type="button" class="btn btn-default" title='0.5倍'>0.5X</button>
+                            <button type="button" class="btn btn-default" title="0.8倍">0.8X</button>
+                            <button type="button" class="btn btn-default" title="还原">1X</button>
+                            <button type="button" class="btn btn-default" title="放大按钮">+</button>
+                        </div>
+                        <p class="p-title">旋转设置</p>
+                        <div class="btn-group rotate" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" title="向左旋转">&#8634</button>
+                            <button type="button" class="btn btn-default" title="还原">0°</button>
+                            <button type="button" class="btn btn-default" title="增加90度">+90°</button>
+                            <button type="button" class="btn btn-default" title="增加180度">+180°</button>
+                            <button type="button" class="btn btn-default" title="向右旋转">&#8635</button>
+                        </div>
+                        <p class="p-title">对齐方式</p>
+                        <div class="btn-group ailgn" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" title="上对齐">&#8593</button>
+                            <button type="button" class="btn btn-default" title="下对齐">&#8595</button>
+                            <button type="button" class="btn btn-default" title="左对齐">&#60</button>
+                            <button type="button" class="btn btn-default" title="右对齐">&#62</button>
+                            <button type="button" class="btn btn-default" title="横向对齐">&#8596</button>
+                            <button type="button" class="btn btn-default" title="纵向对齐">&#8597</button>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <textarea name="words" id="words" cols="30" rows="10" placeholder="请客户填写定制详情参数"></textarea>
+                        <button class="btn btn-primary complete">提交定制</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1 style="text-align:center;background:#ebebeb;line-height:100px;">服装详情页</h1>
+            <img class="img-responsive center-block" src="img/themes/goods_detail/1/1.jpg" alt="" />
+            <img class="img-responsive center-block" src="img/themes/goods_detail/1/2.jpg" alt="" />
+            <img class="img-responsive center-block" src="img/themes/goods_detail/1/3.jpg" alt="" />
+            <img class="img-responsive center-block" src="img/themes/goods_detail/1/4.jpg" alt="" />
+            <img class="img-responsive center-block" src="img/themes/goods_detail/1/5.jpg" alt="" />
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title  text-center">上传图片</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="cropHeaderWrapper">
+                        <div id="croppic"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary center-block" id="comfirm" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+     <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">素材库</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <img class="col-md-4" src="temp/croppedImg_12.jpeg" alt="">
+                        <img class="col-md-4" src="temp/croppedImg_91.jpeg" alt="">
+                        <img class="col-md-4" src="temp/croppedImg_31185.jpeg" alt="">
+                        <img class="col-md-4" src="temp/croppedImg_19122.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary center-block" id="comfirm" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <script src=" https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/croppic.min.js"></script>
+
+    <script>
+        var croppicHeaderOptions = {
+            //uploadUrl:'img_save_to_file.php',
+            cropData:{
+                "dummyData":1,
+                "dummyData2":"asdas"
+            },
+            cropUrl:'img_crop_to_file.php',
+            customUploadButtonId:'cropContainerHeaderButton',
+            modal:false,
+            processInline:true,
+            loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+            onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
+            onAfterImgUpload: function(){ console.log('onAfterImgUpload') },
+            onImgDrag: function(){ console.log('onImgDrag') },
+            onImgZoom: function(){ console.log('onImgZoom') },
+            onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
+            onAfterImgCrop:function(){ console.log('onAfterImgCrop') },
+            onReset:function(){ console.log('onReset') },
+            onError:function(errormessage){ console.log('onError:'+errormessage) }
+        }
+        var croppic = new Croppic('croppic', croppicHeaderOptions);
+        var croppicContainerModalOptions = {
+            uploadUrl:'img_save_to_file.php',
+            cropUrl:'img_crop_to_file.php',
+            modal:true,
+            imgEyecandyOpacity:0.4,
+            loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+            onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
+            onAfterImgUpload: function(){ console.log('onAfterImgUpload') },
+            onImgDrag: function(){ console.log('onImgDrag') },
+            onImgZoom: function(){ console.log('onImgZoom') },
+            onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
+            onAfterImgCrop:function(){ console.log('onAfterImgCrop') },
+            onReset:function(){ console.log('onReset') },
+            onError:function(errormessage){ console.log('onError:'+errormessage) }
+        }
+        var cropContainerModal = new Croppic('cropContainerModal', croppicContainerModalOptions);
+        var croppicContaineroutputOptions = {
+            uploadUrl:'img_save_to_file.php',
+            cropUrl:'img_crop_to_file.php',
+            outputUrlId:'cropOutput',
+            modal:false,
+            loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+            onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
+            onAfterImgUpload: function(){ console.log('onAfterImgUpload') },
+            onImgDrag: function(){ console.log('onImgDrag') },
+            onImgZoom: function(){ console.log('onImgZoom') },
+            onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
+            onAfterImgCrop:function(){ console.log('onAfterImgCrop') },
+            onReset:function(){ console.log('onReset') },
+            onError:function(errormessage){ console.log('onError:'+errormessage) }
+        }
+        var cropContaineroutput = new Croppic('cropContaineroutput', croppicContaineroutputOptions);
+        var croppicContainerEyecandyOptions = {
+            uploadUrl:'img_save_to_file.php',
+            cropUrl:'img_crop_to_file.php',
+            imgEyecandy:false,
+            loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+            onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
+            onAfterImgUpload: function(){ console.log('onAfterImgUpload') },
+            onImgDrag: function(){ console.log('onImgDrag') },
+            onImgZoom: function(){ console.log('onImgZoom') },
+            onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
+            onAfterImgCrop:function(){ console.log('onAfterImgCrop') },
+            onReset:function(){ console.log('onReset') },
+            onError:function(errormessage){ console.log('onError:'+errormessage) }
+        }
+        var cropContainerEyecandy = new Croppic('cropContainerEyecandy', croppicContainerEyecandyOptions);
+        var croppicContaineroutputMinimal = {
+            uploadUrl:'img_save_to_file.php',
+            cropUrl:'img_crop_to_file.php',
+            modal:false,
+            doubleZoomControls:false,
+            rotateControls: false,
+            loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+            onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
+            onAfterImgUpload: function(){ console.log('onAfterImgUpload') },
+            onImgDrag: function(){ console.log('onImgDrag') },
+            onImgZoom: function(){ console.log('onImgZoom') },
+            onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
+            onAfterImgCrop:function(){ console.log('onAfterImgCrop') },
+            onReset:function(){ console.log('onReset') },
+            onError:function(errormessage){ console.log('onError:'+errormessage) }
+        }
+        var cropContaineroutput = new Croppic('cropContainerMinimal', croppicContaineroutputMinimal);
+        var croppicContainerPreloadOptions = {
+            uploadUrl:'img_save_to_file.php',
+            cropUrl:'img_crop_to_file.php',
+            loadPicture:'assets/img/night.jpg',
+            enableMousescroll:true,
+            loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+            onBeforeImgUpload: function(){ console.log('onBeforeImgUpload') },
+            onAfterImgUpload: function(){ console.log('onAfterImgUpload') },
+            onImgDrag: function(){ console.log('onImgDrag') },
+            onImgZoom: function(){ console.log('onImgZoom') },
+            onBeforeImgCrop: function(){ console.log('onBeforeImgCrop') },
+            onAfterImgCrop:function(){ console.log('onAfterImgCrop') },
+            onReset:function(){ console.log('onReset') },
+            onError:function(errormessage){ console.log('onError:'+errormessage) }
+        }
+        var cropContainerPreload = new Croppic('cropContainerPreload', croppicContainerPreloadOptions);
+    </script>
+    </body>
+
+</html>

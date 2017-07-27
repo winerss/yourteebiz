@@ -1,0 +1,193 @@
+.button {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  outline: none;
+}
+.button:hover {
+  background: #5bccf6;
+  color: #fff;
+}
+.container {
+  width: 100%;
+}
+.p-title {
+  margin: 10px 0;
+  line-height: 20px;
+  color: #999;
+  font-size: 16px;
+}
+#design {
+  width: 100%;
+  margin-top: 20px;
+}
+#design .row {
+  margin: 0;
+}
+#design .row #left {
+  height: auto;
+}
+#design .row #left #pro-img {
+  width: auto;
+  margin: 0 auto;
+}
+#design .row #left #pro-img #cloth {
+  position: relative;
+}
+#design .row #left #pro-img .preview-box {
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  width: 300px;
+  height: 460px;
+}
+@media (max-width: 420px) {
+  #design .row #left #pro-img .preview-box {
+    left: 5px;
+    height: 360px;
+  }
+}
+#design .row #left #pro-img .preview-box #preview {
+  margin-left: 50px;
+  margin-top: 200px;
+  cursor: pointer;
+}
+@media (max-width: 420px) {
+  #design .row #left #pro-img .preview-box #preview {
+    margin-top: 50px;
+  }
+}
+#design .row #left #pro-list {
+  width: auto;
+  height: 100px;
+}
+#design .row #left #pro-list ul {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  padding: 0;
+}
+@media (min-width: 440px) {
+  #design .row #left #pro-list ul {
+    width: 60%;
+  }
+}
+#design .row #left #pro-list ul li {
+  list-style: none;
+  float: left;
+  width: 25%;
+  padding: 2%;
+  cursor: pointer;
+}
+#design .row #center .pro-style-box .pro-style .col-md-4 {
+  padding: 5px;
+}
+#design .row #center .pro-style-box .pro-style .col-md-4 .activeBtn {
+  color: #5bccf6;
+  border-color: #5bccf6;
+}
+#design .row #center .pro-style-box .pro-style .col-md-4 button {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  outline: none;
+}
+#design .row #center .pro-style-box .pro-style .col-md-4 button:hover {
+  background: #5bccf6;
+  color: #fff;
+}
+#design .row #center .pro-style-box .pro-category .col-md-4 {
+  padding: 5px;
+}
+#design .row #center .pro-style-box .pro-category .col-md-4 .activeBtn {
+  color: #5bccf6;
+  border-color: #5bccf6;
+}
+#design .row #center .pro-style-box .pro-category .col-md-4 button {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  outline: none;
+}
+#design .row #center .pro-style-box .pro-category .col-md-4 button:hover {
+  background: #5bccf6;
+  color: #fff;
+}
+#design .row #center .pro-style-box .switch-sex .col-md-4 {
+  padding: 5px;
+}
+#design .row #center .pro-style-box .switch-sex .col-md-4 .activeBtn {
+  color: #5bccf6;
+  border-color: #5bccf6;
+}
+#design .row #center .pro-style-box .switch-sex .col-md-4 button {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  outline: none;
+}
+#design .row #center .pro-style-box .switch-sex .col-md-4 button:hover {
+  background: #5bccf6;
+  color: #fff;
+}
+#design .row #center .pro-style-box .pro-color .color span {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+#design .row #right .top .tips {
+  color: #666;
+}
+#design .row #right .top button {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #5bccf6;
+  background: #fff;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+#design .row #right .top button:hover {
+  background: #5bccf6;
+  color: #fff;
+}
+#design .row #right .top button .glyphicon {
+  margin-right: 5px;
+}
+#design .row #right .top button input {
+  padding: 5px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#design .row #right .center .btn-group button {
+  padding: 10px 20px;
+}
+#design .row #right .center .btn-group button:hover {
+  background: #5bccf6;
+  border-color: #5bccf6;
+  color: #fff;
+}
+#design .row #right .bottom {
+  margin-top: 20px;
+}
+#design .row #right .bottom textarea {
+  max-height: 100px;
+  max-width: 100%;
+  height: 100px;
+  width: 100%;
+}
+#design .row #right .bottom button {
+  line-height: 30px;
+  width: 100%;
+  margin: 10px 0;
+}
+#myModal .modal-body img {
+  cursor: pointer;
+}
